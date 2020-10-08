@@ -4,15 +4,15 @@ function SortPopup({items}) {
     const [visiblePopup, setVisiblePopup] = React.useState(false);
     const [activeItem, setActiveItem] = React.useState(0);
     const sortRef = React.useRef();
-    const activeLabel = items[activeItem];
 
+    const activeLabel = items[activeItem];
 
     const toggleVisiblePopup = () => {
         setVisiblePopup(!visiblePopup)
     };
 
     const handleOutsideClick = (e) => {
-        if (!e.path.includes(sortRef.current)) {
+        if (sortRef.current && !sortRef.current.contains(e.target)) {
             setVisiblePopup(false)
         }
     };
@@ -28,7 +28,6 @@ function SortPopup({items}) {
     }, [visiblePopup]);
 
     return (
-        <div>
             <div ref={sortRef} className="sort">
                 <div className="sort__label">
                     <svg
@@ -57,7 +56,6 @@ function SortPopup({items}) {
                     </ul>
                 </div>}
             </div>
-        </div>
     );
 }
 
