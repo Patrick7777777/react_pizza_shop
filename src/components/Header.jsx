@@ -10,7 +10,7 @@ export default function Header() {
             <div className="container">
                 <Link to="/">
                     <div className="header__logo">
-                        <img width="38" src={logoSvg}/>
+                        <img alt='' width="38" src={logoSvg}/>
                         <div>
                             <Route path="/" exact>
                                 <h1>React Pizza</h1>
