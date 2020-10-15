@@ -5,9 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/pizzas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/pizzas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/pizzas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/pizzas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/filters.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -127,6 +125,7 @@
       <workItem from="1602668836946" duration="727000" />
       <workItem from="1602698118304" duration="19000" />
       <workItem from="1602698229911" duration="607000" />
+      <workItem from="1602742596985" duration="5786000" />
     </task>
     <servers />
   </component>
