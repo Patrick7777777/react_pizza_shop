@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7ba3d5c-6f5d-4fb8-a97c-3293710df419" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/actions/cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/actions/filters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/actions/pizzas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/filters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/pizzas.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SortPopup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SortPopup.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/pizzas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/pizzas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/pizzas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/pizzas.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -126,7 +121,12 @@
       <workItem from="1602235381075" duration="1420000" />
       <workItem from="1602246175770" duration="6812000" />
       <workItem from="1602447851815" duration="7264000" />
-      <workItem from="1602569044218" duration="4640000" />
+      <workItem from="1602569044218" duration="8700000" />
+      <workItem from="1602613830112" duration="6929000" />
+      <workItem from="1602657396702" duration="8152000" />
+      <workItem from="1602668836946" duration="727000" />
+      <workItem from="1602698118304" duration="19000" />
+      <workItem from="1602698229911" duration="607000" />
     </task>
     <servers />
   </component>
