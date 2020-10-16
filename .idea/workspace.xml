@@ -4,9 +4,9 @@
     <list default="true" id="d7ba3d5c-6f5d-4fb8-a97c-3293710df419" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/filters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Categories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Categories.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SortPopup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SortPopup.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,14 +47,14 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Patrick777\react_projects\react-pizza\src\assets\img" />
+      <recent name="C:\Users\Patrick777\react_projects\react-pizza\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Patrick777\react_projects\react-pizza\src\redux\reducers" />
       <recent name="C:\Users\Patrick777\react_projects\react-pizza\src\components" />
       <recent name="C:\Users\Patrick777\react_projects\react-pizza\src\scss" />
-      <recent name="C:\Users\Patrick777\react_projects\react-pizza\src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Patrick777\react_projects\react-pizza\src\assets\img" />
       <recent name="C:\Users\Patrick777\react_projects\react-pizza\src" />
     </key>
   </component>
@@ -125,7 +125,14 @@
       <workItem from="1602668836946" duration="727000" />
       <workItem from="1602698118304" duration="19000" />
       <workItem from="1602698229911" duration="607000" />
-      <workItem from="1602742596985" duration="5786000" />
+      <workItem from="1602742596985" duration="9376000" />
+      <workItem from="1602760698556" duration="2662000" />
+      <workItem from="1602772271995" duration="1588000" />
+      <workItem from="1602787460987" duration="12000" />
+      <workItem from="1602788459900" duration="5710000" />
+      <workItem from="1602794403556" duration="6000" />
+      <workItem from="1602794433243" duration="66000" />
+      <workItem from="1602828934022" duration="431000" />
     </task>
     <servers />
   </component>

@@ -1,32 +1,35 @@
 import React from 'react';
 
-function SortPopup({items}) {
-    const [visiblePopup, setVisiblePopup] = React.useState(false);
-    const [activeItem, setActiveItem] = React.useState(0);
-    const sortRef = React.useRef();
-    const activeLabel = items[activeItem].name;
+//////////////////////////////////////////////////////////////////////////// 1:52:30
 
-    const toggleVisiblePopup = () => {
-        setVisiblePopup(!visiblePopup)
-    };
+const SortPopup = React.memo(
+    function SortPopup({items}) {
+        const [visiblePopup, setVisiblePopup] = React.useState(false);
+        const [activeItem, setActiveItem] = React.useState(0);
+        const sortRef = React.useRef();
+        const activeLabel = items[activeItem].name;
 
-    const handleOutsideClick = (e) => {
-        if (sortRef.current && !sortRef.current.contains(e.target)) {
+        const toggleVisiblePopup = () => {
+            setVisiblePopup(!visiblePopup)
+        };
+
+        const handleOutsideClick = (e) => {
+            if (sortRef.current && !sortRef.current.contains(e.target)) {
+                setVisiblePopup(false)
+            }
+        };
+
+        const onSelectItem = (index) => {
+            setActiveItem(index);
             setVisiblePopup(false)
-        }
-    };
+        };
 
-    const onSelectItem = (index) => {
-        setActiveItem(index);
-        setVisiblePopup(false)
-    };
+        React.useEffect(() => {
 
-    React.useEffect(() => {
+            document.body.addEventListener('click', handleOutsideClick)
+        }, [visiblePopup]);
 
-        document.body.addEventListener('click', handleOutsideClick)
-    }, [visiblePopup]);
-
-    return (
+        return (
             <div ref={sortRef} className="sort">
                 <div className="sort__label">
                     <svg
@@ -55,7 +58,12 @@ function SortPopup({items}) {
                     </ul>
                 </div>}
             </div>
-    );
-}
+        );
+    }
+);
+
+
+
+
 
 export default SortPopup;
