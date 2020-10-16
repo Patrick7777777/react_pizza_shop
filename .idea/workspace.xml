@@ -3,16 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="d7ba3d5c-6f5d-4fb8-a97c-3293710df419" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Categories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Categories.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SortPopup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SortPopup.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="react-pizza" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -132,7 +135,11 @@
       <workItem from="1602788459900" duration="5710000" />
       <workItem from="1602794403556" duration="6000" />
       <workItem from="1602794433243" duration="66000" />
-      <workItem from="1602828934022" duration="431000" />
+      <workItem from="1602828934022" duration="7506000" />
+      <workItem from="1602841333206" duration="1544000" />
+      <workItem from="1602846481886" duration="942000" />
+      <workItem from="1602847443580" duration="655000" />
+      <workItem from="1602848318240" duration="2270000" />
     </task>
     <servers />
   </component>
