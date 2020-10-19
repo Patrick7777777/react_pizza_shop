@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d7ba3d5c-6f5d-4fb8-a97c-3293710df419" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/pizzas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/pizzas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +138,19 @@
       <workItem from="1602846481886" duration="942000" />
       <workItem from="1602847443580" duration="655000" />
       <workItem from="1602848318240" duration="2672000" />
-      <workItem from="1602855936324" duration="1502000" />
+      <workItem from="1602855936324" duration="1855000" />
+      <workItem from="1602857829214" duration="4000" />
+      <workItem from="1602924008886" duration="7000" />
+      <workItem from="1602924556039" duration="60000" />
+      <workItem from="1602925496226" duration="68000" />
+      <workItem from="1602930449411" duration="392000" />
+      <workItem from="1602930845347" duration="3000" />
+      <workItem from="1602931099106" duration="565000" />
+      <workItem from="1602943483965" duration="762000" />
+      <workItem from="1603010830796" duration="407000" />
+      <workItem from="1603054301337" duration="846000" />
+      <workItem from="1603055151708" duration="19000" />
+      <workItem from="1603092150047" duration="947000" />
     </task>
     <servers />
   </component>
