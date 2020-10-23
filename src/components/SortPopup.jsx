@@ -1,26 +1,31 @@
 import React from 'react';
-
-
+import PropTypes from "prop-types";
 
 const SortPopup = React.memo(
-    function SortPopup({items}) {
+    function SortPopup({items, activeSortType, onClickSortType}) {
         const [visiblePopup, setVisiblePopup] = React.useState(false);
-        const [activeItem, setActiveItem] = React.useState(0);
         const sortRef = React.useRef();
-        const activeLabel = items[activeItem].name;
+        const activeLabel = items.find((obj) => obj.type === activeSortType).name;
+
 
         const toggleVisiblePopup = () => {
             setVisiblePopup(!visiblePopup)
         };
 
         const handleOutsideClick = (e) => {
+
+            /// lesson #9 14:07
+
             if (sortRef.current && !sortRef.current.contains(e.target)) {
                 setVisiblePopup(false)
             }
         };
 
         const onSelectItem = (index) => {
-            setActiveItem(index);
+            if (onClickSortType){
+                onClickSortType(index)
+            }
+
             setVisiblePopup(false)
         };
 
@@ -51,7 +56,9 @@ const SortPopup = React.memo(
                 {visiblePopup && <div className="sort__popup">
                     <ul>
                         {items && items.map((obj, index) => (
-                            <li onClick={() => onSelectItem(index)} className={activeItem === index ? 'active' : ''}
+                            <li
+                                onClick={() => onSelectItem(obj)}
+                                className={activeSortType === obj.type ? 'active' : ''}
                                 key={`${obj.type}_${index}`}>
                                 {obj.name}
                             </li>))}
@@ -62,8 +69,14 @@ const SortPopup = React.memo(
     }
 );
 
+SortPopup.propTypes = {
+    activeSortType: PropTypes.string.isRequired,
+    items: PropTypes.arrayOf(PropTypes.object).isRequired,
+    onClickSortType: PropTypes.func.isRequired
+};
 
-
-
+SortPopup.defaultProps = {
+    items: [],
+};
 
 export default SortPopup;

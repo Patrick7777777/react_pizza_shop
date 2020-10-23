@@ -6,6 +6,9 @@ function PizzaBlock({name, imageUrl, price, types, sizes}) {
     const availableTypes = ['тонкое', 'традиционное'];
     const availableSizes = [26, 30, 40];
     const [activeType, setActiveType] = useState(types[0]);
+
+    // TODO: ПРОВЕРИТЬ ПОЧЕМУ НЕ ВЫБИРАЕТСЯ ПО УМОЛЧАНИЮ ПЕРВЫЙ РАЗМЕР ПРИ ПЕРВОМ РЕНДЕРЕ
+
     const [activeSize, setActiveSize] = useState(sizes[0]);
 
 
@@ -74,7 +77,7 @@ function PizzaBlock({name, imageUrl, price, types, sizes}) {
     );
 }
 
-PizzaBlock.propTypes = {
+/*PizzaBlock.propTypes = {
     name: PropTypes.string.isRequired,
     imageURL: PropTypes.string.isRequired,
     price: PropTypes.number.isRequired,
@@ -87,6 +90,6 @@ PizzaBlock.defaultProps = {
     price: 0,
     types: [],
     sizes: [],
-};
+};*/
 
 export default PizzaBlock;

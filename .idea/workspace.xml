@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7ba3d5c-6f5d-4fb8-a97c-3293710df419" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/PizzaBlock/LoadingBlock.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Categories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Categories.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PizzaBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PizzaBlock/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SortPopup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SortPopup.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/filters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/pizzas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/pizzas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/filters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/pizzas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/pizzas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/components/_pizza-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_pizza-block.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,14 +62,15 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Patrick777\react_projects\react-pizza\src\assets\img" />
-      <recent name="C:\Users\Patrick777\react_projects\react-pizza\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Patrick777\react_projects\react-pizza\src\components\PizzaBlock" />
       <recent name="C:\Users\Patrick777\react_projects\react-pizza\src\redux\reducers" />
       <recent name="C:\Users\Patrick777\react_projects\react-pizza\src\components" />
       <recent name="C:\Users\Patrick777\react_projects\react-pizza\src\scss" />
+      <recent name="C:\Users\Patrick777\react_projects\react-pizza\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Patrick777\react_projects\react-pizza\src\assets\img" />
       <recent name="C:\Users\Patrick777\react_projects\react-pizza\src" />
     </key>
   </component>
@@ -150,7 +165,23 @@
       <workItem from="1603010830796" duration="407000" />
       <workItem from="1603054301337" duration="846000" />
       <workItem from="1603055151708" duration="19000" />
-      <workItem from="1603092150047" duration="947000" />
+      <workItem from="1603092150047" duration="5129000" />
+      <workItem from="1603097907984" duration="653000" />
+      <workItem from="1603098583745" duration="662000" />
+      <workItem from="1603101030088" duration="9636000" />
+      <workItem from="1603114483602" duration="108000" />
+      <workItem from="1603133490924" duration="44000" />
+      <workItem from="1603133601258" duration="31000" />
+      <workItem from="1603133635277" duration="3000" />
+      <workItem from="1603134893679" duration="145000" />
+      <workItem from="1603175346476" duration="10678000" />
+      <workItem from="1603214663010" duration="897000" />
+      <workItem from="1603260573867" duration="5773000" />
+      <workItem from="1603303402194" duration="8243000" />
+      <workItem from="1603368653360" duration="2932000" />
+      <workItem from="1603379189711" duration="105000" />
+      <workItem from="1603387989562" duration="7399000" />
+      <workItem from="1603459077732" duration="457000" />
     </task>
     <servers />
   </component>
