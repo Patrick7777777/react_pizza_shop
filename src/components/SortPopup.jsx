@@ -13,16 +13,20 @@ const SortPopup = React.memo(
         };
 
         const handleOutsideClick = (e) => {
+                        if (sortRef.current && !sortRef.current.contains(e.target)) {
+                            setVisiblePopup(false)
+                        }
 
-            /// lesson #9 14:07
+            //// lesson #9 14:07
+            // const path = event.path || (event.composedPath && event.composedPath()) || composedPath(event.target);
+            // if (!path.includes(sortRef.current)) {
+            //    setVisiblePopup(false);
+            // }
 
-            if (sortRef.current && !sortRef.current.contains(e.target)) {
-                setVisiblePopup(false)
-            }
         };
 
         const onSelectItem = (index) => {
-            if (onClickSortType){
+            if (onClickSortType) {
                 onClickSortType(index)
             }
 
