@@ -2,26 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7ba3d5c-6f5d-4fb8-a97c-3293710df419" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/CartItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/commands" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Cart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/pizzas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/pizzas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/cart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="react-pizza" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,16 +32,23 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -67,18 +62,6 @@
       <recent name="C:\Users\Patrick777\react_projects\react-pizza\src\assets\img" />
       <recent name="C:\Users\Patrick777\react_projects\react-pizza\src" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -95,6 +78,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -184,25 +168,57 @@
       <workItem from="1603905974728" duration="1482000" />
       <workItem from="1603955380632" duration="5871000" />
       <workItem from="1603971113935" duration="19109000" />
-      <workItem from="1604043951781" duration="22254000" />
+      <workItem from="1604043951781" duration="22367000" />
+      <workItem from="1604403533812" duration="9000" />
+      <workItem from="1604577820926" duration="206000" />
+      <workItem from="1604654105960" duration="135000" />
+      <workItem from="1604654578887" duration="57000" />
+      <workItem from="1604654643699" duration="54000" />
+      <workItem from="1604654727072" duration="49000" />
+      <workItem from="1606813897524" duration="353000" />
+      <workItem from="1606814299729" duration="1728000" />
+      <workItem from="1606816727578" duration="28000" />
+      <workItem from="1606816766436" duration="13000" />
+      <workItem from="1606816884772" duration="1362000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="610" y="316" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606819568398">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state x="610" y="316" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1707.1027@0.0.1707.1027" timestamp="1606819568398" />
+    <state width="1685" height="341" key="GridCell.Tab.0.bottom" timestamp="1606819576849">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1685" height="341" key="GridCell.Tab.0.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1606819576849" />
+    <state width="1685" height="341" key="GridCell.Tab.0.center" timestamp="1606819576849">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1685" height="341" key="GridCell.Tab.0.center/0.0.1707.1027@0.0.1707.1027" timestamp="1606819576849" />
+    <state width="1685" height="341" key="GridCell.Tab.0.left" timestamp="1606819576849">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1685" height="341" key="GridCell.Tab.0.left/0.0.1707.1027@0.0.1707.1027" timestamp="1606819576849" />
+    <state width="1685" height="341" key="GridCell.Tab.0.right" timestamp="1606819576849">
+      <screen x="0" y="0" width="1707" height="1027" />
+    </state>
+    <state width="1685" height="341" key="GridCell.Tab.0.right/0.0.1707.1027@0.0.1707.1027" timestamp="1606819576849" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
