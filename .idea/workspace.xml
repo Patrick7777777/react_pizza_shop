@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d7ba3d5c-6f5d-4fb8-a97c-3293710df419" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +179,11 @@
       <workItem from="1606814299729" duration="1728000" />
       <workItem from="1606816727578" duration="28000" />
       <workItem from="1606816766436" duration="13000" />
-      <workItem from="1606816884772" duration="5924000" />
+      <workItem from="1606816884772" duration="6872000" />
+      <workItem from="1606833872488" duration="1198000" />
+      <workItem from="1606835154067" duration="160000" />
+      <workItem from="1606835610978" duration="424000" />
+      <workItem from="1606857284912" duration="1854000" />
     </task>
     <servers />
   </component>
@@ -201,22 +207,22 @@
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
     <state x="610" y="316" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1707.1027@0.0.1707.1027" timestamp="1606819568398" />
-    <state width="1685" height="341" key="GridCell.Tab.0.bottom" timestamp="1606819576849">
+    <state width="1685" height="341" key="GridCell.Tab.0.bottom" timestamp="1606861267852">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state width="1685" height="341" key="GridCell.Tab.0.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1606819576849" />
-    <state width="1685" height="341" key="GridCell.Tab.0.center" timestamp="1606819576849">
+    <state width="1685" height="341" key="GridCell.Tab.0.bottom/0.0.1707.1027@0.0.1707.1027" timestamp="1606861267852" />
+    <state width="1685" height="341" key="GridCell.Tab.0.center" timestamp="1606861267852">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state width="1685" height="341" key="GridCell.Tab.0.center/0.0.1707.1027@0.0.1707.1027" timestamp="1606819576849" />
-    <state width="1685" height="341" key="GridCell.Tab.0.left" timestamp="1606819576849">
+    <state width="1685" height="341" key="GridCell.Tab.0.center/0.0.1707.1027@0.0.1707.1027" timestamp="1606861267852" />
+    <state width="1685" height="341" key="GridCell.Tab.0.left" timestamp="1606861267852">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state width="1685" height="341" key="GridCell.Tab.0.left/0.0.1707.1027@0.0.1707.1027" timestamp="1606819576849" />
-    <state width="1685" height="341" key="GridCell.Tab.0.right" timestamp="1606819576849">
+    <state width="1685" height="341" key="GridCell.Tab.0.left/0.0.1707.1027@0.0.1707.1027" timestamp="1606861267852" />
+    <state width="1685" height="341" key="GridCell.Tab.0.right" timestamp="1606861267852">
       <screen x="0" y="0" width="1707" height="1027" />
     </state>
-    <state width="1685" height="341" key="GridCell.Tab.0.right/0.0.1707.1027@0.0.1707.1027" timestamp="1606819576849" />
+    <state width="1685" height="341" key="GridCell.Tab.0.right/0.0.1707.1027@0.0.1707.1027" timestamp="1606861267852" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
